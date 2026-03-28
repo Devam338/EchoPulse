@@ -6,7 +6,7 @@ This implementation is based on the uploaded project report describing:
 - audio-based diagnosis using **MFCC features**
 - **data augmentation** with added noise and pitch shifting
 - **Random Forest** and **SVM** models
-- a combined prediction workflow for respiratory/cardiopulmonary classification fileciteturn0file0L84-L113 fileciteturn0file0L114-L161
+- a combined prediction workflow for respiratory/cardiopulmonary
 
 ## What this repo includes
 
@@ -62,7 +62,7 @@ python scripts/predict.py --audio_path data/raw/asthma/sample_001.wav --bundle_p
 
 ## Notes
 
-This is a strong starter implementation, not the exact original competition code. The paper gives the overall ML approach and architecture, but not the full source code or exact preprocessing constants, so a few engineering choices here are reasonable reconstructions of the described pipeline. fileciteturn0file0L84-L161
+This is a strong starter implementation, not the exact original competition code. The paper gives the overall ML approach and architecture, but not the full source code or exact preprocessing constants, so a few engineering choices here are reasonable reconstructions of the described pipeline.
 
 
 ## Streamlit app
