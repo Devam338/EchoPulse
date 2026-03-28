@@ -1,0 +1,31 @@
+audio:
+  sample_rate: 22050
+  duration_seconds: 8
+  n_mfcc: 40
+  n_fft: 2048
+  hop_length: 512
+
+augmentation:
+  enabled: true
+  noise_factor: 0.005
+  pitch_steps: 2
+  generate_original: true
+  generate_noise: true
+  generate_pitch: true
+
+training:
+  test_size: 0.2
+  random_state: 42
+  stratify: true
+
+random_forest:
+  n_estimators: 300
+  max_depth: 20
+  min_samples_split: 4
+  min_samples_leaf: 2
+
+svm:
+  C: 10.0
+  kernel: rbf
+  gamma: scale
+  probability: true
