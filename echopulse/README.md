@@ -1,7 +1,5 @@
 # EchoPulse
 
-GitHub-ready starter repository for **EchoPulse**, a digital auscultation ML pipeline for cardiopulmonary sound classification.
-
 This implementation is based on the uploaded project report describing:
 - audio-based diagnosis using **MFCC features**
 - **data augmentation** with added noise and pitch shifting
