@@ -58,10 +58,6 @@ Run inference:
 python scripts/predict.py --audio_path data/raw/asthma/sample_001.wav --bundle_path models/model_bundle.joblib
 ```
 
-## Notes
-
-This is a strong starter implementation, not the exact original competition code. The paper gives the overall ML approach and architecture, but not the full source code or exact preprocessing constants, so a few engineering choices here are reasonable reconstructions of the described pipeline.
-
 
 ## Streamlit app
 
