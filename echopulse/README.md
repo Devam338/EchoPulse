@@ -17,9 +17,8 @@ This implementation is based on the uploaded project report describing:
   - soft-voting ensemble
 - evaluation with accuracy, classification report, and confusion matrix
 - inference script for single audio files
-- clean project structure for uploading to GitHub
 
-## Suggested dataset layout
+## Dataset layout
 
 Place your audio files in:
 
@@ -36,7 +35,6 @@ data/
       sample_004.wav
 ```
 
-Each folder name becomes the class label.
 
 ## Quick start
 
@@ -73,5 +71,3 @@ The app lets you:
 - view the predicted label
 - inspect class probabilities
 - visualize the waveform and spectrogram
-
-Make sure your trained bundle exists at `models/model_bundle.joblib`, or update the path in the app sidebar.
