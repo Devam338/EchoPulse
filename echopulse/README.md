@@ -4,7 +4,7 @@ This implementation is based on the uploaded project report describing:
 - audio-based diagnosis using **MFCC features**
 - **data augmentation** with added noise and pitch shifting
 - **Random Forest** and **SVM** models
-- a combined prediction workflow for respiratory/cardiopulmonary
+- a combined prediction workflow for respiratory/cardiopulmonary 
 
 ## What this repo includes
 
