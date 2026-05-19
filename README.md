@@ -16,7 +16,7 @@ This implementation is based on the uploaded project report describing:
   - SVM
   - soft-voting ensemble
 - evaluation with accuracy, classification report, and confusion matrix
-- inference script for single audio files
+- inference script for single audio files 
 
 ## Dataset layout
 
