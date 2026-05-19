@@ -1,6 +1,6 @@
 # EchoPulse
 
-This implementation is based on the uploaded project report describing:
+This implementation is based on the uploaded project report describing: 
 - audio-based diagnosis using **MFCC features**
 - **data augmentation** with added noise and pitch shifting
 - **Random Forest** and **SVM** models
