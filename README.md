@@ -10,7 +10,7 @@ This implementation is based on the uploaded project report describing:
 
 - configurable data loading from WAV audio files
 - MFCC-based feature extraction
-- optional audio augmentation
+- optional audio augmentation 
 - training pipelines for:
   - Random Forest
   - SVM
