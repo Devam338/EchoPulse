@@ -3,7 +3,7 @@ from __future__ import annotations
 from flask import Flask, jsonify, request 
 
 from echopulse.audio import load_audio 
-from echopulse.config import load_config
+from echopulse.config import load_config 
 from echopulse.features import extract_mfcc_features
 from echopulse.modeling import load_bundle
 
