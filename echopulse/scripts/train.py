@@ -69,7 +69,7 @@ def main() -> None:
 
     for model_name, model in models_to_run:
         model.fit(X_train, y_train)
-        metrics = evaluate_model(model, X_test, y_test, label_encoder)
+        metrics = evaluate_model(model, X_test, y_test, label_encoder, svm_pipeline)
         metrics_summary[model_name] = {
             "accuracy": float(metrics["accuracy"]),
             "classification_report": metrics["classification_report"],
