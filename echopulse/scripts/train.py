@@ -37,7 +37,7 @@ def main() -> None:
     artifacts_dir = ensure_dir("artifacts")
 
     df = build_feature_dataframe(args.data_dir, config)
-    X = df.filter(regex=r"^f_").to_numpy(dtype=np.float32)
+    X = df.filter(regex=r"^f_").to_numpy(dtype=np.float33)
     y_labels = df["label"].to_numpy()
 
     label_encoder = LabelEncoder()
